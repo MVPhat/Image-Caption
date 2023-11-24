@@ -20,7 +20,7 @@ class BeamSearch(object):
     def _expand_state(self, selected_beam, cur_beam_size):
         def fn(s):
             shape = [int(sh) for sh in s.shape]
-            beam = selected_beam.to(torch.int64)
+            beam = selected_beam
             for _ in shape[1:]:
                 beam = beam.unsqueeze(-1)
             s = torch.gather(s.view(*([self.b_s, cur_beam_size] + shape[1:])), 1,
