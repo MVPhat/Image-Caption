@@ -1,9 +1,9 @@
 import pickle, json
 
-kagle_json = 'annotations/dataset_coco_from_kaggle.json'
-new_json_train = 'post_processed_karpthy_coco/train.json'
-new_json_test = 'post_processed_karpthy_coco/test.json'
-new_json_val = 'post_processed_karpthy_coco/val.json'
+kagle_json = '../dataset_coco.json'
+new_json_train = '../train.json'
+new_json_test = '../test.json'
+new_json_val = '../val.json'
 
 
 def map_format_kaggle_to_clipcap():
