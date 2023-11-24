@@ -1,4 +1,4 @@
-name: CapDec
+name: CVProject
 channels:
   - defaults
 dependencies:
