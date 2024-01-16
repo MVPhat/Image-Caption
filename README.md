@@ -61,10 +61,6 @@ Note: the rectangle frames are drawn by ourself to evaluate the accuracy, they'r
     <p style="padding-top: 10px; text-align: center">COCO 2014</p>
 </div>
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
-
 <div style="padding-bottom: 15px">
     <div style="display: flex; width: 100%; gap: 10px;">
         <img src="https://drive.google.com/uc?id=1cPLyZpdo5Zp4HYUE7GxINqiBZIFsxYQO" style="width: 50%; height: 50%"/>
